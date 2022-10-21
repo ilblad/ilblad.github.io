@@ -491,6 +491,14 @@ pre, span.code {
 
 @media (max-width: 499px) {
 
+    #presentation .left {
+        background-image: url(/img/ingalundblad.jpg);
+        width: 145px;
+        height: 180px;
+        margin-bottom: 1em;
+        margin-right: 1em;
+    }
+
     #presentation #nameandtitle {
         margin-bottom: 1em
     }
