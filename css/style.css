@@ -1,0 +1,690 @@
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+h1, h2, mark {
+    color: #000
+}
+
+body, dd, dt, figure {
+    margin: 0
+}
+
+#content, #main {
+    margin: 0 auto
+}
+
+#main, #pager, textarea {
+    overflow: auto
+}
+
+#menu, #pager {
+    text-align: center
+}
+
+#menu a:link, #menu a:visited, h1 a, h2 a, h3 a, h4 a {
+    border: none
+}
+
+.clear, dt {
+    clear: both
+}
+
+#domains div, #menu div, audio, canvas, video {
+    display: inline-block
+}
+
+#content, #portfolio {
+    text-align: left
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+    display: block
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden] {
+    display: none
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+a:focus {
+    outline: dotted thin
+}
+
+a:active, a:hover {
+    outline: 0
+}
+
+h1 {
+    font-size: 2em
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+b, strong {
+    font-weight: 700
+}
+
+dfn {
+    font-style: italic
+}
+
+mark {
+    background: #ff0
+}
+
+code, kbd, pre, samp {
+    font-family: monospace, serif;
+    font-size: 1em
+}
+
+small {
+    font-size: 80%
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -.5em
+}
+
+sub {
+    bottom: -.25em
+}
+
+img {
+    border: 0
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0
+}
+
+button, input {
+    line-height: normal
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled], input[disabled] {
+    cursor: default
+}
+
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+textarea {
+    vertical-align: top
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner, legend {
+    border: 0;
+    padding: 0
+}
+
+body {
+    font: 400 1em/1.3 Helvetica, Arial, sans-serif;
+    padding: 0 0 20px;
+    color: #202020
+}
+
+h1, h2, h3 {
+    font-weight: 400
+}
+
+#content {
+    max-width: 900px;
+    padding: 0 8px
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: .3em;
+    font-size: 1.2em
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px dotted #333;
+    padding-bottom: 1px
+}
+
+#menu div.active a, a:hover, article.post header div.post-published, dt {
+    color: #e37423
+}
+
+dl {
+    margin-left: 10px
+}
+
+dd, dt {
+    float: left;
+    font-size: .9em
+}
+
+dt {
+    margin-right: 10px
+}
+
+tr {
+    border-bottom: 1px solid #ccc
+}
+
+td, th {
+    padding: 5px
+}
+
+#pager a.next-page {
+    float: right;
+    background: #FFF;
+    padding: 0 5px
+}
+
+#pager a.prev-page {
+    float: left;
+    background: #FFF;
+    padding: 0 5px
+}
+
+#career, #experience, #other, #presentation, #projects, #summary, #title {
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e37423
+}
+
+#menu {
+    margin: 10px auto 30px;
+    font-size: 1.3em
+}
+
+#menu div {
+    width: auto;
+    padding: 0 10px
+}
+
+#menu div:first-child {
+    padding: 0 10px 0 0
+}
+
+#menu div:last-child {
+    padding: 0 0 0 10px
+}
+
+@media (max-width: 1024px) {
+    #mask, #menu {
+        top: 0;
+        overflow: hidden
+    }
+
+    #mask, #menu, html.inactive, html.inactive body {
+        overflow: hidden
+    }
+
+    #menu-button {
+        cursor: pointer;
+        height: 20px;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        width: 33px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        z-index: 10
+    }
+
+    #menu-button div {
+        background: #e37423;
+        height: 3px
+    }
+
+    #menu-button div::after, #menu-button div::before {
+        background: #e37423;
+        content: '';
+        display: block;
+        height: 3px;
+        -webkit-transition-duration: .25s;
+        -moz-transition-duration: .25s;
+        -o-transition-duration: .25s;
+        transition-duration: .25s
+    }
+
+    #menu-button div::before {
+        -webkit-transform: translateY(12px);
+        -ms-transform: translateY(12px);
+        transform: translateY(12px)
+    }
+
+    #menu-button div::after {
+        -webkit-transform: translateY(3px);
+        -ms-transform: translateY(3px);
+        transform: translateY(3px)
+    }
+
+    #menu-button.active div {
+        background: 0 0
+    }
+
+    #menu-button.active div::before {
+        -webkit-transform: translateY(7px) rotate(-45deg);
+        -ms-transform: translateY(7px) rotate(-45deg);
+        transform: translateY(7px) rotate(-45deg)
+    }
+
+    #menu-button.active div::after {
+        -webkit-transform: translateY(4px) translateX(0) rotate(45deg);
+        -ms-transform: translateY(4px) translateX(0) rotate(45deg);
+        transform: translateY(4px) translateX(0) rotate(45deg)
+    }
+
+    #menu {
+        padding: 0;
+        margin: 0;
+        background-color: #fff;
+        position: absolute;
+        right: 0;
+        height: 100%;
+        width: 0;
+        -webkit-transition: width .2s;
+        -moz-transition: width .2s;
+        -o-transition: width .2s;
+        transition: width .2s;
+        text-align: left;
+        z-index: 9
+    }
+
+    #menu.active {
+        width: 14em;
+        border-bottom: 2px solid #e37423;
+        border-left: 2px solid #e37423
+    }
+
+    #menu div, #menu div:first-child {
+        display: block;
+        padding: 5px 15px;
+        font-size: 2em;
+        font-weight: 200;
+        margin: 0 .5em;
+        border-bottom: 1px solid #eaeaea
+    }
+
+    #menu div:first-child {
+        margin-top: .5em
+    }
+
+    #menu div a {
+        display: block
+    }
+
+    #content {
+        margin-top: 40px !important
+    }
+
+    #mask {
+        position: fixed;
+        z-index: 8;
+        left: 0;
+        width: 0;
+        height: 0;
+        background-color: #000;
+        opacity: 0;
+        transition: opacity .3s, width 0s .3s, height 0s .3s;
+        -webkit-transition: opacity .3s, width 0s .3s, height 0s .3s;
+        -moz-transition: opacity .3s, width 0s .3s, height 0s .3s;
+        -o-transition: opacity .3s, width 0s .3s, height 0s .3s
+    }
+
+    #mask.active {
+        width: 100%;
+        height: 100%;
+        opacity: .7;
+        transition: opacity .3s;
+        -webkit-transition: opacity .3s;
+        -moz-transition: opacity .3s;
+        -o-transition: opacity .3s
+    }
+}
+
+article.page-404 {
+    font-size: 1.8em
+}
+
+article.post {
+    margin-bottom: 10px;
+    overflow: hidden
+}
+
+article.post header h1.post-title {
+    margin: 0 0 10px
+}
+
+article.post div.post-content img:not(.captcha) {
+    max-width: 100%
+}
+
+article.post div.post-content img.align_left {
+    margin: 5px 10px 5px 0;
+    float: left
+}
+
+article.post div.post-content img.align_right {
+    margin: 5px 0 5px 10px;
+    float: right
+}
+
+#presentation h1, #presentation h2, pre code {
+    margin: 0
+}
+
+article.post div.post-content blockquote {
+    font-style: italic
+}
+
+pre {
+    border: none;
+    word-wrap: normal;
+    padding: 6px 10px;
+    line-height: 19px;
+    margin-bottom: 20px;
+    overflow: auto;
+    white-space: pre
+}
+
+code {
+    margin: 0 2px;
+    padding: 0 5px;
+    white-space: inherit
+}
+
+pre code {
+    padding: 0
+}
+
+code, pre, span.code {
+    font-family: Consolas, 'Liberation Mono', Courier, monospace;
+    color: #333;
+    background: #eff0f1
+}
+
+pre, span.code {
+    font-size: .9em
+}
+
+#presentation {
+    margin-top: 3em
+}
+
+#presentation h1 {
+    font-size: 3em
+}
+
+@media (min-width: 500px) {
+
+    #summary .left {
+        width: 218px;
+        height: 100px
+    }
+
+    #summary .right {
+        margin-left: 220px;
+        height: 90px
+    }
+
+    #expiring div span:first-child {
+        width: 300px
+    }
+
+    #expiring div span.free:first-child, #expiring div span.occupied:first-child {
+        width: 282px
+    }
+}
+
+@media (max-width: 499px) {
+
+    #presentation #nameandtitle {
+        margin-bottom: 1em
+    }
+
+    #presentation p:first-child {
+        margin-top: 0
+    }
+
+    #summary .left {
+        width: 140px;
+        height: 165px
+    }
+
+    #summary .right {
+        width: auto;
+        margin-left: 142px;
+        height: 155px
+    }
+
+    #expiring div span:nth-child(2) {
+        float: right
+    }
+
+    #career .left, #education .left, #experience .left, #other .left, #projects .left {
+        width: 27%
+    }
+
+    #career .right, #education .right, #experience .right, #other .right, #projects .right {
+        width: 70%
+    }
+}
+
+.left {
+    float: left;
+    width: 23%
+}
+
+.left p {
+    color: #e37423
+}
+
+.right {
+    float: right;
+    width: 74%
+}
+
+#presentation .right, #summary .right {
+    width: auto;
+    float: none
+}
+
+#presentation .left {
+    background-repeat: no-repeat
+}
+
+#summary {
+    margin-top: 10px
+}
+
+#summary .left {
+    background-color: #ccc
+}
+
+#summary .right {
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #e37423
+}
+
+#experience ul, #other ul {
+    padding-left: 1em
+}
+
+#summary .right .signature {
+    float: right;
+    margin: 0;
+    font-style: italic
+}
+
+#experience h3, #experience ul, #other h3 {
+    margin-top: 7px;
+    padding-top: 0
+}
+
+#career p, #education p, #projects p {
+    margin-top: 2px
+}
+
+#experience p, #other p {
+    margin-top: 10px;
+    padding-top: 0
+}
+
+#title {
+    color: #333
+}
+
+#contact div, #tools div {
+    display: list-item;
+    margin-left: 20px
+}
+
+#contact div p, #tools div p {
+    margin-top: .3em
+}
+
+#contact div a, #tools div a {
+    font-size: 1.2em
+}
+
+#zonegenerator label {
+    display: block;
+    margin-top: 10px
+}
+
+#zonegenerator textarea {
+    min-width: 250px
+}
+
+#zonegenerator #submit {
+    margin-top: 5px
+}
+
+#domains div {
+    width: 85px
+}
+
+#domains div.break {
+    display: block
+}
+
+#domains h3, #expiring h3 {
+    margin-bottom: 10px
+}
+
+#expiring div {
+    padding: 3px 0
+}
+
+#expiring .free, #expiring .occupied {
+    padding-left: 18px;
+    background-repeat: no-repeat
+}
+
+#expiring div:nth-child(odd) {
+    background-color: #f1f1f1
+}
+
+#expiring div span:first-child {
+    display: inline-block
+}
+
+#expiring .free {
+    background-image: url(/img/check.png)
+}
+
+#expiring .occupied {
+    background-image: url(/img/cross.png)
+}
+
+.pos {
+    color: green
+}
+
+.neg {
+    color: red
+}
+
+.hello {
+    margin-top: 3em
+}
+
+.hello h1 {
+    font-size: 4em;
+    margin: 0
+}
+
+.hello p {
+    margin-top: 0
+}
+
+.initials {
+    font-size: 1.2em;
+    color: #e37423
+}
+
+#content.hello {
+    max-width: 550px
+}
+
+.hello img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto
+}
