@@ -462,6 +462,14 @@ pre, span.code {
 
 @media (min-width: 500px) {
 
+    #presentation .left {
+        background-image: url(/img/ingalundblad.jpg);
+        width: 230px;
+        height: 300px;
+        margin-bottom: 1em;
+        margin-right: 1em;
+    }
+
     #summary .left {
         width: 218px;
         height: 100px
