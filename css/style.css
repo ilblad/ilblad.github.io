@@ -234,11 +234,6 @@ td, th {
     padding: 0 5px
 }
 
-#career, #experience, #other, #presentation, #projects, #summary, #title {
-    padding-bottom: 8px;
-    border-bottom: 2px solid #e37423
-}
-
 #menu {
     margin: 10px auto 30px;
     font-size: 1.3em
