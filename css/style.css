@@ -470,12 +470,10 @@ pre, span.code {
         margin-right: 1em;
     }
 
-    #welcome .left {
+    #welcome-img {
         background-image: url(/img/lugnandehav.jpg);
-        width: 230px;
-        height: 300px;
-        margin-bottom: 1em;
-        margin-right: 1em;
+        width: 100%;
+        height: 350px;
     }
 
     #summary .left {
@@ -507,12 +505,10 @@ pre, span.code {
         margin-right: 1em;
     }
 
-    #welcome .left {
+    #welcome-img {
         background-image: url(/img/lugnandehav.jpg);
-        width: 145px;
-        height: 180px;
-        margin-bottom: 1em;
-        margin-right: 1em;
+        width: 100%;
+        height: 350px;
     }
 
     #presentation p:first-child {
