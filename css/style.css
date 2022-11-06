@@ -198,7 +198,7 @@ a {
 }
 
 #menu div.active a, a:hover, article.post header div.post-published, dt {
-    color: #e37423
+    color: #0a5582
 }
 
 dl {
@@ -276,12 +276,12 @@ td, th {
     }
 
     #menu-button div {
-        background: #e37423;
+        background: #0a5582;
         height: 3px
     }
 
     #menu-button div::after, #menu-button div::before {
-        background: #e37423;
+        background: #0a5582;
         content: '';
         display: block;
         height: 3px;
@@ -337,8 +337,8 @@ td, th {
 
     #menu.active {
         width: 14em;
-        border-bottom: 2px solid #e37423;
-        border-left: 2px solid #e37423
+        border-bottom: 2px solid #0a5582;
+        border-left: 2px solid #0a5582
     }
 
     #menu div, #menu div:first-child {
@@ -476,16 +476,6 @@ pre, span.code {
         height: 350px;
     }
 
-    #summary .left {
-        width: 218px;
-        height: 100px
-    }
-
-    #summary .right {
-        margin-left: 220px;
-        height: 90px
-    }
-
     #expiring div span:first-child {
         width: 300px
     }
@@ -515,17 +505,6 @@ pre, span.code {
         margin-top: 0
     }
 
-    #summary .left {
-        width: 140px;
-        height: 165px
-    }
-
-    #summary .right {
-        width: auto;
-        margin-left: 142px;
-        height: 155px
-    }
-
     #expiring div span:nth-child(2) {
         float: right
     }
@@ -537,7 +516,7 @@ pre, span.code {
 }
 
 .left p {
-    color: #e37423
+    color: #0a5582
 }
 
 .right {
@@ -545,7 +524,7 @@ pre, span.code {
     width: 74%
 }
 
-#presentation .right, #summary .right {
+#presentation .right {
     width: auto;
     float: none
 }
@@ -554,30 +533,8 @@ pre, span.code {
     background-repeat: no-repeat
 }
 
-#summary {
-    margin-top: 10px
-}
-
-#summary .left {
-    background-color: #ccc
-}
-
-#summary .right {
-    color: #fff;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: #e37423
-}
-
 #experience ul, #other ul {
     padding-left: 1em
-}
-
-#summary .right .signature {
-    float: right;
-    margin: 0;
-    font-style: italic
 }
 
 #experience h3, #experience ul, #other h3 {
