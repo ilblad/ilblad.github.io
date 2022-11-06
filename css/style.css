@@ -474,6 +474,7 @@ pre, span.code {
         background-image: url(/img/lugnandehav.jpg);
         width: 100%;
         height: 350px;
+        background-size: cover;
     }
 
     #expiring div span:first-child {
@@ -498,7 +499,8 @@ pre, span.code {
     #welcome-img {
         background-image: url(/img/lugnandehav.jpg);
         width: 100%;
-        height: 350px;
+        height: 200px;
+        background-size: cover;
     }
 
     #presentation p:first-child {
