@@ -344,7 +344,7 @@ td, th {
     #menu div, #menu div:first-child {
         display: block;
         padding: 5px 15px;
-        font-size: 2em;
+        font-size: 1.5em;
         font-weight: 200;
         margin: 0 .5em;
         border-bottom: 1px solid #eaeaea
@@ -464,7 +464,7 @@ pre, span.code {
 
     #presentation .left {
         background-image: url(/img/ingalundblad.jpg);
-        width: 230px;
+        width: 225px;
         height: 300px;
         margin-bottom: 1em;
         margin-right: 1em;
@@ -500,8 +500,8 @@ pre, span.code {
 @media (max-width: 499px) {
 
     #presentation .left {
-        background-image: url(/img/ingalundblad.jpg);
-        width: 145px;
+        background-image: url(/img/ingalundblad_small.jpg);
+        width: 135px;
         height: 180px;
         margin-bottom: 1em;
         margin-right: 1em;
