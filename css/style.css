@@ -470,6 +470,14 @@ pre, span.code {
         margin-right: 1em;
     }
 
+    #welcome .left {
+        background-image: url(/img/lugnandehav.jpg);
+        width: 230px;
+        height: 300px;
+        margin-bottom: 1em;
+        margin-right: 1em;
+    }
+
     #summary .left {
         width: 218px;
         height: 100px
@@ -499,8 +507,12 @@ pre, span.code {
         margin-right: 1em;
     }
 
-    #presentation #nameandtitle {
-        margin-bottom: 1em
+    #welcome .left {
+        background-image: url(/img/lugnandehav.jpg);
+        width: 145px;
+        height: 180px;
+        margin-bottom: 1em;
+        margin-right: 1em;
     }
 
     #presentation p:first-child {
@@ -520,14 +532,6 @@ pre, span.code {
 
     #expiring div span:nth-child(2) {
         float: right
-    }
-
-    #career .left, #education .left, #experience .left, #other .left, #projects .left {
-        width: 27%
-    }
-
-    #career .right, #education .right, #experience .right, #other .right, #projects .right {
-        width: 70%
     }
 }
 
@@ -669,33 +673,3 @@ pre, span.code {
     color: red
 }
 
-.hello {
-    margin-top: 3em
-}
-
-.hello h1 {
-    font-size: 4em;
-    margin: 0
-}
-
-.hello p {
-    margin-top: 0
-}
-
-.initials {
-    font-size: 1.2em;
-    color: #e37423
-}
-
-#content.hello {
-    max-width: 550px
-}
-
-.hello img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto
-}
