@@ -463,7 +463,7 @@ pre, span.code {
 @media (min-width: 500px) {
 
     #presentation .left {
-        background-image: url(/img/ingalundblad.jpg);
+        background-image: url(/img/ingalundblad.avif);
         width: 225px;
         height: 300px;
         margin-bottom: 1em;
@@ -489,7 +489,7 @@ pre, span.code {
 @media (max-width: 499px) {
 
     #presentation .left {
-        background-image: url(/img/ingalundblad_small.jpg);
+        background-image: url(/img/ingalundblad_small.avif);
         width: 135px;
         height: 180px;
         margin-bottom: 1em;
@@ -497,7 +497,7 @@ pre, span.code {
     }
 
     #welcome-img {
-        background-image: url(/img/lugnandehav.jpg);
+        background-image: url(/img/lugnandehav.avif);
         width: 100%;
         height: 200px;
         background-size: cover;
