@@ -252,7 +252,16 @@ td, th {
     padding: 0 0 0 10px
 }
 
+.mobile-header {
+    display: none;
+}
+
 @media (max-width: 1024px) {
+
+    .mobile-header {
+        display: block;
+    }
+
     #mask, #menu {
         top: 0;
         overflow: hidden
